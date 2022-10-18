@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+h2 {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding: 2em 0;
+}
+body {
+  background-color: #2D41ED;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quiz {
+  color: #FFE1CD;
+  background: linear-gradient(145deg, #3046fe, #293bd5);
+  box-shadow:  10px 10px 30px #2434be, -10px -10px 30px #364eff;
+  border-radius: 25px;
+  padding: 20px;
+  height: 75%;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2CA1; 
+  border-radius: 10px;
+}
+.register_screen {
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+}
+.register_screen .pseudoList input {
+  min-height: 50px;
+  width: 90%;
+  margin-bottom: 15px;
+  background: #2D41ED;
+  border: 1px solid #1F2CA1;
+  outline: none;
+  color: #FFE1CD;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+}
+.pseudoList {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: absolute;
+  align-items: center;
+  overflow: auto;
+  border-radius: 25px;
+}
+.fields {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 150px;
+}
+.fields i {
+  height: 37.5px;
+  width: auto;
+  color: #FFE1CD;
+}
+.question_screen {
+  display: none;
+
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.answer_screen {
+  display: none;
+
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.final_screen {
+  display: none;
+
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 5%;
+  background: #1F2CA1;
+  border-radius: 25px;
+}
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  color: #FFE1CD;
+}
