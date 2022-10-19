@@ -128,6 +128,11 @@ const initial_values = [
     },
     {
       level: "facile",
+      question: "Quel joueur de football a remporté le ballon d'or en 2022 ?",
+      answer: "Karim Benzema",
+    },
+    {
+      level: "facile",
       question: "Quel est le jeux-vidéo le plus vendu au monde ?",
       answer: "Minecraft",
     },
@@ -188,6 +193,21 @@ const initial_values = [
     },
     {
       level: "facile",
+      question: "Combien les Simpson ont-ils de doigts à chaque main ?",
+      answer: "4",
+    },
+    {
+      level: "facile",
+      question: "Comment s'appelle la ville ou vivent les Simpson ?",
+      answer: "Springfield",
+    },
+    {
+      level: "facile",
+      question: "Comment s'appelle le grand frère dans la série Malcolm ?",
+      answer: "Francis",
+    },
+    {
+      level: "facile",
       question: "Quel pays a remporté la coupe du monde de Football en 2010 ?",
       answer: "Espagne",
     },
@@ -220,6 +240,11 @@ const initial_values = [
       level: "moyen",
       question: "Qui a peint le plafond de la chapelle Sixtine à Rome ?",
       answer: "Michel-Ange",
+    },
+    {
+      level: "moyen",
+      question: "Qui joue le rôle de Alfie Solomons dans la série Peaky Blinders ?",
+      answer: "Tom Hardy",
     },
     {
       level: "moyen",
@@ -290,6 +315,16 @@ const initial_values = [
       level: "moyen",
       question: "En quelle année est sorti le film Alien, le huitième passager ?",
       answer: "1979",
+    },
+    {
+      level: "moyen",
+      question: "Combien de ballons d'or Lionel Messi a-t-il remporté ?",
+      answer: "7",
+    },
+    {
+      level: "moyen",
+      question: "Quelle célèbre équipe de rugby danse et chante le haka ?",
+      answer: "les All Blacks",
     },
     {
       level: "moyen",
@@ -465,6 +500,11 @@ const initial_values = [
       level: "difficile",
       question: "Combien de temps le match de tennis le plus long de l'histoire a-t-il duré ?",
       answer: "11 heures et 5 minutes",
+    },
+    {
+      level: "difficile",
+      question: "Quel rôle joue Nina Dobrev dans la série Vampire Diaries ?",
+      answer: "Elena Gilbert",
     },
     {
       level: "difficile",
