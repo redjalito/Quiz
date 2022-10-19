@@ -13,7 +13,7 @@ h2 {
   padding: 2em 0;
 }
 body {
-  background-color: #2D41ED;
+  background-color: #374EF3;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -22,9 +22,8 @@ body {
   overflow: hidden;
 }
 .quiz {
-  color: #FFE1CD;
-  background: linear-gradient(145deg, #3046fe, #293bd5);
-  box-shadow:  10px 10px 30px #2434be, -10px -10px 30px #364eff;
+  color: #071630;
+  background: #FFFFFF;
   border-radius: 25px;
   padding: 20px;
   height: 75%;
@@ -36,7 +35,7 @@ body {
   width: 20px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1F2CA1; 
+  background: #071630; 
   border-radius: 10px;
 }
 .register_screen {
@@ -50,10 +49,10 @@ body {
   min-height: 50px;
   width: 90%;
   margin-bottom: 15px;
-  background: #2D41ED;
-  border: 1px solid #1F2CA1;
+  background: #F5F6FF;
+  border: 1px solid #071630;
   outline: none;
-  color: #FFE1CD;
+  color: #071630;
   border-radius: 10px;
   text-align: center;
   font-weight: 600;
@@ -81,7 +80,7 @@ body {
 .fields i {
   height: 37.5px;
   width: auto;
-  color: #FFE1CD;
+  color: #071630;
 }
 .question_screen {
   display: none;
@@ -120,7 +119,7 @@ body {
   justify-content: space-around;
   position: absolute;
   bottom: 5%;
-  background: #1F2CA1;
+  background: #F5F6FF;
   border-radius: 25px;
 }
 button {
@@ -132,5 +131,5 @@ button {
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
-  color: #FFE1CD;
+  color: #071630;
 }
