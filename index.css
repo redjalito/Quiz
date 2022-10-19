@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 .quiz {
   color: #FFE1CD;
